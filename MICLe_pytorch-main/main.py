@@ -90,7 +90,6 @@ def main(train_dir_path,
         devices=train_config.devices,
         accelerator=train_config.accelerator,
         enable_progress_bar = True,
-         devices = -1
     )
     trainer.fit(model, dataloader_train_MICLe)
 
