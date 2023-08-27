@@ -28,7 +28,7 @@ def main(train_dir_path,
             self.devices = [devices]
             self.accelerator = accelerator
             self.IMG_SIZE_X = img_size
-            self.IMG_size_Y = img_size
+            self.IMG_SIZE_Y = img_size
             self.batch_size = batch_size
             self.num_workers = num_workers
             self.lr = lr
