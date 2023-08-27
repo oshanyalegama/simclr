@@ -89,7 +89,7 @@ def main(train_dir_path,
         max_epochs=train_config.epochs,
         devices=train_config.devices,
         accelerator=train_config.accelerator,
-        progress_bar_refresh_rate=1
+        enable_progress_bar = True
     )
     trainer.fit(model, dataloader_train_MICLe)
 
