@@ -52,7 +52,7 @@ def main(train_dir_path,
                     })
 
     transform = torchvision.transforms.Compose([
-        torchvision.Resize([train_config.IMG_SIZE_X, train_config.IMG_SIZE_Y]),
+        torchvision.transforms.Resize([train_config.IMG_SIZE_X, train_config.IMG_SIZE_Y]),
         torchvision.transforms.ToTensor(),
         torchvision.transforms.Normalize(mean=(0.4561, 0.2746, 0.1623), std=(0.2609, 0.1639, 0.0991))
     ])
