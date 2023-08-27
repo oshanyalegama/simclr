@@ -109,7 +109,7 @@ if __name__ == "__main__":
     parser.add_argument('--epochs', default=100, type=int,
                         help='epochs to train for')
     parser.add_argument('--seed', default=1, type=int, help='random seed')
-    parser.add_argument('--devices', default=2, help='device index to specify device to train on')
+    parser.add_argument('--devices', default=0, help='device index to specify device to train on')
     parser.add_argument('--accelerator', default='gpu', type = str, help='device to train on (cpu, gpu, ddp)')
     parser.add_argument('--img_size', default=256, type = int, help='image size')
     parser.add_argument('--batch_size', default=256, type = int, help='batch size')
