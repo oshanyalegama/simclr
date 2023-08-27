@@ -1,0 +1,6 @@
+torch
+torchvision
+pytorch-lightning
+lightly
+lightning-bolts
+pillow
