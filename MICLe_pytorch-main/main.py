@@ -9,7 +9,7 @@ import torchvision
 def main(train_dir_path, 
          epochs=100,
          seed=1,
-         devices=2,
+         devices=0,
          accelerator='gpu',
          img_size=256,
          batch_size=256,
